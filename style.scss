@@ -1,3 +1,261 @@
-body{
-    font-family: 'Open Sans', 'Times New Roman', serif;
+body {
+  font-family: "Open Sans", "Times New Roman", serif;
+  background: #3e3b4a;
+  color: #fff;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.text {
+  color: #898691;
+}
+.name-section {
+  color: #ffc7b0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+}
+// header
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0 75px 0;
+  .menu {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 22px;
+
+    .text {
+      padding-left: 10px;
+    }
+  }
+  .logotype {
+    text-align: center;
+  }
+  .logo {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .discription-logo {
+    color: #898691;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .search {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 22px;
+  }
+}
+// main
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  .section-home {
+    width: 100%;
+    background: url(img/square1-bg.jpg);
+    margin-bottom: 20px;
+    .name-section {
+      margin: 39px 0 26px 42px;
+    }
+    h1 {
+      font-size: 72px;
+      font-weight: 700;
+      margin: 0 0 25px 43px;
+    }
+    p {
+      font-size: 36px;
+      font-weight: 400;
+      margin: 0px 0 76px 42px;
+    }
+    a {
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 700;
+      border: 3px solid #ffe18f;
+      line-height: 42px;
+      padding: 0 6px 0 8px;
+      margin: 0 0 30px 42px;
+    }
+  }
+  .section-ACCESSORIES {
+    width: 60.9803921569%;
+    max-width: 622px;
+    background: #71b6c3 url(img/square2-bg.png) no-repeat top right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    .name-section {
+      margin: 35px 0 21px 42px;
+    }
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin: 0 0 23px 41px;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 30px;
+      margin: 0px 0 166px 42px;
+    }
+    a {
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 700;
+      border: 3px solid #ffe18f;
+      line-height: 42px;
+      padding: 0 6px 0 8px;
+      margin: 0 0 43px 42px;
+    }
+  }
+  article {
+    width: 37.0588235294%;
+    text-align: center;
+    background: #eb7b61;
+    margin-bottom: 20px;
+    h1 {
+      font-size: 48px;
+      font-weight: 400;
+      font-family: "Times New Roman PSMT";
+      padding: 77px 0 19px 0;
+    }
+    p.first {
+      font-family: "Times New Roman PSMT";
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 1.8px;
+      padding-bottom: 42px;
+    }
+    input {
+      border: 3px solid #ffd9d1;
+      background: transparent;
+      text-align: center;
+      color: #ffd9d1;
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 700;
+      width: 285px;
+      height: 42px;
+      margin-bottom: 19px;
+    }
+    button {
+      border: 3px solid #66689c;
+      background-color: #66689c;
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 700;
+      width: 291px;
+      height: 42px;
+      margin-bottom: 30px;
+    }
+    p {
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .section-CAMERAS {
+    height: 420px;
+    width: 25.4901960784%;
+    text-align: center;
+    background: url(/img/square4-bg.jpg);
+    margin-right: 20px;
+    .name-section {
+      margin: 34px 0 144px 0;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 121px;
+    }
+    a {
+      display: inline-block;
+      color: #3d3c4a;
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 700;
+      padding: 11px 10px 15px 12px;
+      background-color: #ffe18e;
+      margin-bottom: 2px;
+    }
+  }
+  .section-SOUND {
+    height: 420px;
+    width: 25.4901960784%;
+    text-align: center;
+    background: url(/img/square5-bg.jpg);
+    margin-right: 20px;
+    .name-section {
+      margin: 34px 0 124px 0;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 104px;
+    }
+    a {
+      display: inline-block;
+      color: #3d3c4a;
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 700;
+      padding: 11px 10px 15px 12px;
+      background-color: #ffe18e;
+      margin-bottom: 2px;
+    }
+  }
+  .section-CAMERAS-bottom-left {
+    width: 45.0980392157%;
+    background: #1ab467 url(img/square6-bg.png) no-repeat bottom right;
+    .name-section {
+      margin: 34px 0 18px 42px;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin: 0 0 22px 34px;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 0 0 186px 34px;
+    }
+    a {
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 700;
+      border: 3px solid #ffe18f;
+      line-height: 42px;
+      padding: 0 6px 0 8px;
+      margin: 0 0 23px 42px;
+    }
+  }
+}
+
+footer {
+  margin: 56px 0 69px 0;
+  display: flex;
+  justify-content: space-between;
+  .copy {
+    color: #898691;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .social a:first-child{
+padding-right: 22px;
+  }
 }
