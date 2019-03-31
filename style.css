@@ -380,4 +380,15 @@ footer .social a:first-child {
     transition: 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 }
+
+@media (max-width: 520px) {
+  main .section-CAMERAS {
+    margin-bottom: 20px;
+  }
+  main .section-home p {
+    font-size: 24px;
+    -webkit-transition: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -306,3 +306,14 @@ footer {
   }
 }
 }
+@media (max-width:520px){
+  main{
+    .section-CAMERAS{
+      margin-bottom: 20px;
+    }
+    .section-home p{
+      font-size: 24px;
+      transition: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+    }
+  }
+}
