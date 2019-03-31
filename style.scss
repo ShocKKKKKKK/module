@@ -187,7 +187,7 @@ main {
     }
   }
   .section-CAMERAS {
-    width: 25.4901960784%;
+    width: 260px;
     height: 420px;
     text-align: center;
     background: url(img/square4-bg.jpg);
@@ -213,7 +213,7 @@ main {
   }
   .section-SOUND {
     height: 420px;
-    width: 25.4901960784%;
+    width: 260px;
     text-align: center;
     background: url(img/square5-bg.jpg);
     margin-right: 20px;
@@ -277,4 +277,32 @@ footer {
   .social a:first-child {
     padding-right: 22px;
   }
+}
+@media (max-width:1019px){
+  main{
+    display: flex;
+    justify-content: space-around;
+  .section-ACCESSORIES{
+    width: 100%;
+    margin:0 0 20px 0;
+    transition: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+  article{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+  .section-CAMERAS{
+    margin: 0;
+  }
+  .section-SOUND{
+    margin: 0;
+  }
+  .section-CAMERAS-bottom-left{
+    margin-top: 20px;
+    width: 100%;
+    transition: 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
 }

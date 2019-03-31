@@ -237,7 +237,7 @@ main article p {
 }
 
 main .section-CAMERAS {
-  width: 25.4901960784%;
+  width: 260px;
   height: 420px;
   text-align: center;
   background: url(img/square4-bg.jpg);
@@ -267,7 +267,7 @@ main .section-CAMERAS a {
 
 main .section-SOUND {
   height: 420px;
-  width: 25.4901960784%;
+  width: 260px;
   text-align: center;
   background: url(img/square5-bg.jpg);
   margin-right: 20px;
@@ -344,5 +344,40 @@ footer .copy {
 
 footer .social a:first-child {
   padding-right: 22px;
+}
+
+@media (max-width: 1019px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  main .section-ACCESSORIES {
+    width: 100%;
+    margin: 0 0 20px 0;
+    -webkit-transition: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+  main article {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    -webkit-transition: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+  main .section-CAMERAS {
+    margin: 0;
+  }
+  main .section-SOUND {
+    margin: 0;
+  }
+  main .section-CAMERAS-bottom-left {
+    margin-top: 20px;
+    width: 100%;
+    -webkit-transition: 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
 }
 /*# sourceMappingURL=style.css.map */
