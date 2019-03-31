@@ -65,10 +65,13 @@ header {
 main {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
   .section-home {
     width: 100%;
+    height: 512px;
     background: url(img/square1-bg.jpg);
     margin-bottom: 20px;
+    position: relative;
     .name-section {
       margin: 39px 0 26px 42px;
     }
@@ -94,12 +97,13 @@ main {
   }
   .section-ACCESSORIES {
     width: 60.9803921569%;
-    max-width: 622px;
+    height: 484px;
     background: #71b6c3 url(img/square2-bg.png) no-repeat top right;
     margin-bottom: 20px;
     margin-right: 20px;
+    position: relative;
     .name-section {
-      margin: 35px 0 21px 42px;
+      padding: 35px 0 21px 42px;
     }
     h1 {
       font-size: 48px;
@@ -123,7 +127,12 @@ main {
     }
   }
   article {
+    // display: flex;
+    // flex-direction: column;
+    // flex-grow: 1;
+    // flex-shrink: 2;
     width: 37.0588235294%;
+    height: 484px;
     text-align: center;
     background: #eb7b61;
     margin-bottom: 20px;
@@ -140,26 +149,35 @@ main {
       letter-spacing: 1.8px;
       padding-bottom: 42px;
     }
-    input {
-      border: 3px solid #ffd9d1;
-      background: transparent;
-      text-align: center;
-      color: #ffd9d1;
-      font-family: "Open Sans";
+    input[type="email"] {
+      margin: 0 auto;
+      display: block;
+      width: 285px;
+      line-height: 34px;
       font-size: 20px;
       font-weight: 700;
-      width: 285px;
-      height: 42px;
+      text-align: center;
+      box-sizing: border-box;
+      border: 3px solid #ffd9d1;
+      color: #ffd9d1;
+      background: none;
       margin-bottom: 19px;
     }
-    button {
-      border: 3px solid #66689c;
-      background-color: #66689c;
-      font-family: "Open Sans";
+    input::placeholder{
+        color: #ffd9d1;
+    }
+    input[type="submit"] {
+      display: block;
+      margin: 0 auto;
+      width: 285px;
+      line-height: 40px;
       font-size: 20px;
       font-weight: 700;
-      width: 291px;
-      height: 42px;
+      text-align: center;
+      color: #fff;
+      background: #66689c;
+      border: none;
+      cursor: pointer;
       margin-bottom: 30px;
     }
     p {
@@ -169,10 +187,10 @@ main {
     }
   }
   .section-CAMERAS {
-    height: 420px;
     width: 25.4901960784%;
+    height: 420px;
     text-align: center;
-    background: url(/img/square4-bg.jpg);
+    background: url(img/square4-bg.jpg);
     margin-right: 20px;
     .name-section {
       margin: 34px 0 144px 0;
@@ -197,7 +215,7 @@ main {
     height: 420px;
     width: 25.4901960784%;
     text-align: center;
-    background: url(/img/square5-bg.jpg);
+    background: url(img/square5-bg.jpg);
     margin-right: 20px;
     .name-section {
       margin: 34px 0 124px 0;
@@ -221,6 +239,7 @@ main {
   .section-CAMERAS-bottom-left {
     width: 45.0980392157%;
     background: #1ab467 url(img/square6-bg.png) no-repeat bottom right;
+    position: relative;
     .name-section {
       margin: 34px 0 18px 42px;
     }
@@ -255,7 +274,7 @@ footer {
     font-size: 14px;
     font-weight: 400;
   }
-  .social a:first-child{
-padding-right: 22px;
+  .social a:first-child {
+    padding-right: 22px;
   }
 }
